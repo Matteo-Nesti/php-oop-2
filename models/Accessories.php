@@ -1,10 +1,10 @@
 <?php
-require_once '../Product.php';
+require_once './Product.php';
 
-class Toy extends Product
+class Accessories extends Product
 {
     public $materials;
-    public $size;
+    public $size = 'ND';
 
     public function __construct($animal_type, $product_type, $price, $thumb, $materials, $size)
     {

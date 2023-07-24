@@ -1,4 +1,7 @@
 <?php
+include_once './models/Accessories.php';
+include_once './models/Toy.php';
+include_once './models/Food.php';
 class Product
 {
     public $animal_type;

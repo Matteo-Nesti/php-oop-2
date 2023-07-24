@@ -1,5 +1,5 @@
 <?php
-require_once '../Product.php';
+require_once './Product.php';
 
 class Food extends Product
 {
